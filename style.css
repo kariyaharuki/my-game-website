@@ -516,3 +516,26 @@ button, .btn {
     flex-direction: column;
   }
 }
+
+/* ダウンロード情報スタイル */
+.download-info {
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  animation: glow-subtle 3s ease-in-out infinite alternate;
+}
+
+.download-info p {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+@keyframes glow-subtle {
+  0% { box-shadow: 0 0 10px rgba(79, 172, 254, 0.3); }
+  100% { box-shadow: 0 0 20px rgba(79, 172, 254, 0.5); }
+}
