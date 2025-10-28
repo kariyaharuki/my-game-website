@@ -566,3 +566,26 @@ button, .btn {
   font-size: 0.85rem;
   line-height: 1.4;
 }
+
+.folder-structure {
+  margin-top: 15px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 8px;
+  border-left: 3px solid #00ff88;
+}
+
+.folder-structure h5 {
+  margin: 0 0 8px 0;
+  color: #00ff88;
+  font-size: 0.9rem;
+}
+
+.folder-structure pre {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #e0e0e0;
+  line-height: 1.3;
+  white-space: pre;
+}
