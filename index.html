@@ -84,13 +84,13 @@
             <div class="game-icon">🖼️</div>
             <h4>グラフィック素材</h4>
             <p>画像・テクスチャファイル</p>
-            <a class="btn game-btn" href="graphics.zip" download="グラフィック.zip">ダウンロード</a>
+            <a class="btn game-btn" href="graphics.zip" download="graphics.zip">ダウンロード</a>
           </div>
           <div class="game-card">
             <div class="game-icon">📊</div>
             <h4>リソースファイル</h4>
             <p>CSVファイル・ゲーム設定・サウンド</p>
-            <a class="btn game-btn" href="csv.zip" download="リソース.zip">ダウンロード</a>
+            <a class="btn game-btn" href="csv.zip" download="resource.zip">ダウンロード</a>
           </div>
         </div>
         
@@ -106,8 +106,23 @@
               <li>新しいフォルダを作成 (例: C:\MyGame\)</li>
               <li>各ZIPファイルを<strong>右クリック</strong> → <strong>「すべて展開」</strong></li>
               <li>すべて<strong>同じフォルダ</strong>に展開する</li>
-              <li><strong>重要:</strong> 「リソース.zip」の中身を「resource」フォルダにリネーム</li>
-              <li>「グラフィック.zip」の中身を「resource」フォルダ内に移動</li>
+              <li><strong>重要:</strong> 「resource.zip」の中身を「resource」フォルダにリネーム</li>
+              <li>「graphics.zip」の中身を「resource」フォルダ内に移動</li>
+              <li>dasyutu.exe または ManagedDxlGame.exe を実行</li>
+            </ol>
+            <div class="folder-structure">
+              <h5>📁 最終的なフォルダ構造:</h5>
+              <pre>MyGame/
+├── dasyutu.exe
+├── ManagedDxlGame.exe
+└── resource/
+    ├── csv/
+    ├── graphics/
+    ├── sound/
+    ├── shader/
+    └── mesh/</pre>
+            </div>
+          </div>
               <li>dasyutu.exe または ManagedDxlGame.exe を実行</li>
             </ol>
             <div class="folder-structure">
